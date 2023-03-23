@@ -1,8 +1,8 @@
 <?php
 
-namespace CTSoft\Laravel\PrettyPagination\Routing;
+namespace Leknoppix\Laravel\PrettyPagination\Routing;
 
-use CTSoft\Laravel\PrettyPagination\Http\Middleware\SetPrettyPagination;
+use Leknoppix\Laravel\PrettyPagination\Http\Middleware\SetPrettyPagination;
 use Illuminate\Routing\Route as BaseRoute;
 use Illuminate\Support\Facades\Route as Router;
 use Illuminate\Support\Str;
@@ -22,7 +22,8 @@ class Route
 
             $route = clone $this;
 
-            $route->uri = sprintf('%s%s{page}',
+            $route->uri = sprintf(
+                '%s%s{page}',
                 Str::finish($route->uri, '/'),
                 $prefix ? Str::finish($prefix, '/') : ''
             );

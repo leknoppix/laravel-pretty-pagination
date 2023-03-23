@@ -1,6 +1,6 @@
 <?php
 
-namespace CTSoft\Laravel\PrettyPagination\Pagination;
+namespace Leknoppix\Laravel\PrettyPagination\Pagination;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\URL;
@@ -61,7 +61,8 @@ trait GeneratePrettyUrl
             return $url;
         }
 
-        return sprintf('%s%s%s',
+        return sprintf(
+            '%s%s%s',
             $url,
             Str::contains($url, '?') ? '&' : '?',
             Arr::query($this->query)

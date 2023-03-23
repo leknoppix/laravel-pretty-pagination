@@ -1,6 +1,6 @@
 <?php
 
-namespace CTSoft\Laravel\PrettyPagination\Pagination;
+namespace Leknoppix\Laravel\PrettyPagination\Pagination;
 
 use Closure;
 use Illuminate\Pagination\Paginator as BasePaginator;
