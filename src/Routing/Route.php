@@ -1,8 +1,8 @@
 <?php
 
-namespace CTSoft\Laravel\PrettyPagination\Routing;
+namespace Leknoppix\Laravel\PrettyPagination\Routing;
 
-use CTSoft\Laravel\PrettyPagination\Http\Middleware\SetPrettyPagination;
+use Leknoppix\Laravel\PrettyPagination\Http\Middleware\SetPrettyPagination;
 use Illuminate\Routing\Route as BaseRoute;
 use Illuminate\Support\Facades\Route as Router;
 use Illuminate\Support\Str;

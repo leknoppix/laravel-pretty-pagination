@@ -1,5 +1,5 @@
 {
-    "name": "ctsoft/laravel-pretty-pagination",
+    "name": "leknoppix/laravel-pretty-pagination",
     "description": "Pretty pagination URLs for Laravel.",
     "keywords": [
         "laravel",
@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "CTSoft\\Laravel\\PrettyPagination\\": "src/"
+            "Leknoppix\\Laravel\\PrettyPagination\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CTSoft\\Laravel\\PrettyPagination\\Providers\\PrettyPaginationProvider"
+                "Leknoppix\\Laravel\\PrettyPagination\\Providers\\PrettyPaginationProvider"
             ]
         }
     },
